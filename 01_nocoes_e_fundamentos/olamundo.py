@@ -1,2 +1,7 @@
 print("Gizele Bastos")
 print("Ola Mundo!")
+nome = input ("digite seu nome")
+dia = input ("digite o dia do seu nascimento")
+mês = input ("digite o mes do seu nascimento")
+ano = input ("digite o ano do seu nascimento")
+print (f"seu nome é {nome}, você nasceu no dia {dia}, no mês {mês} e no ano {ano}")
