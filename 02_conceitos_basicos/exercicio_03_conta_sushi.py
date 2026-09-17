@@ -10,3 +10,8 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+print(f"Seja bem-vindo! Vamos calcular a conta a pagar!")
+valor_da_conta = float(input("digite o valor total da conta (R$)"))
+taxa_de_serviço = valor_da_conta * 0.10 
+valor_final = valor_da_conta + taxa_de_serviço
+print(f"O valor total da sua conta é {valor_final: .2f}!")
