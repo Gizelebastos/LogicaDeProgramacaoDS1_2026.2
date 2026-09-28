@@ -30,4 +30,4 @@ elif 4500<salario:
     taxa2=salario*0.18
     taxa3=salario*0.28
     taxa_final= taxa1+taxa2+taxa3
-    print (f"Sua taxa é de R$ {taxa_final: 2.f} ")
+    print (f"Sua taxa é de R$ {taxa_final: .2f} ")
