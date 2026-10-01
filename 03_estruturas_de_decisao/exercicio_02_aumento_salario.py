@@ -32,7 +32,7 @@ elif 1200< salario <=2000:
     reajuste4=salario*0.07
     salario_reajuste4= salario+reajuste4
     print (f"Seu salario é de {salario_reajuste4}R$ e o reajuste foi de {reajuste4}R$")
-elif salario >2000:
+else: 
     reajuste5=salario*0.04
     salario_reajuste5= salario+reajuste5
     print (f"Seu salario é de {salario_reajuste5}R$ e o reajuste foi de {reajuste5}R$")
