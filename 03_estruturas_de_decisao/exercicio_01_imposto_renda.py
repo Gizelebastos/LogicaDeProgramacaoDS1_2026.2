@@ -14,20 +14,15 @@ Imprima "Isento" ou o valor total do imposto formatado com 2 casas decimais.
 
 # TODO: Desenvolva o algoritmo abaixo:
 salario = float(input("Digite o salario do funcionario"))
-if 0< salario <=2000:
+
+if salario >=0 and salario <=2000.00:
     print (f"inseto")
-elif 2000<salario <=3000:
-    taxa1=salario*0.08
-    salario_taxa1= salario-taxa1
-    print (f"Sua taxa é R$ {taxa1: .2f} ")
-elif 3000<salario <=4500:
-    taxa1=salario*0.08
-    taxa2=salario*0.18
-    taxa_geral = taxa1+taxa2
-    print (f"Sua taxa é R$ {taxa_geral: .2f} ")
-elif 4500<salario:
-    taxa1=salario*0.08
-    taxa2=salario*0.18
-    taxa3=salario*0.28
-    taxa_final= taxa1+taxa2+taxa3
-    print (f"Sua taxa é de R$ {taxa_final: .2f} ")
+elif salario >= 2000.01 and salario <=3000.00:
+    imposto= (salario-2000)*0.08
+    print (f"Seu imposto é R$ {imposto: .2f} ")
+elif salario>=3000.01 and salario <=4500.00:
+    imposto = ((salario-3000)*0.18)+80
+    print (f"Seu imposto é R$ {imposto: .2f} ")
+else:
+    imposto=((salario-4500)*0.28)+350
+    print (f"Seu salario é R$ {imposto: .2f} ")
