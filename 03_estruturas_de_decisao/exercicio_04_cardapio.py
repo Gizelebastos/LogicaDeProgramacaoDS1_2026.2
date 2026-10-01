@@ -33,3 +33,5 @@ elif codigo_do_item==4:
 elif codigo_do_item==5:
     preço_total=(consumida)*1.50
     print(f"O valor a ser pago é de {preço_total}R$")
+else:
+    print("Codigo invalido")
