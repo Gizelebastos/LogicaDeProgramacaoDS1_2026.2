@@ -9,3 +9,9 @@ foram digitados. Ao final, imprima a quantidade total.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+contador = 0
+for i in range(5):
+    numero = int(input("Digite um numero inteiro"))
+    if numero % 2 == 0:
+        contador= contador + 1
+print (f"A quantidade de numeros pares é igual a {contador}")
