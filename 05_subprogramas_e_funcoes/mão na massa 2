@@ -1,0 +1,8 @@
+# TODO: Crie a função lambda aqui
+calcular_acrescimo = None # Substitua pela expressão lambda
+
+# Teste
+calcula_acressimo = lambda valor : (valor * 0.10) + valor
+valor = float (input("Digite o valor : "))
+valor_final = calcula_acressimo (valor)
+print (f" o valor final é de {valor_final}")
